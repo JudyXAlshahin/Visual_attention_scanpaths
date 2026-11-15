@@ -45,4 +45,4 @@ jupyter notebook coco_freeview_gaze_analysis.ipynb
 Random seed fixed (`default_rng(0)`).
 
 ## Limitations
-Pixels on a 1680x1050 zero-padded canvas, not degrees of visual angle (no viewing distance given); train+valid splits only (665k of 822k fixations); only 10 observers; map correlation and DTW are coarse measures (MultiMatch / ScanMatch / NSS / AUC are natural next steps); no link to image content yet.
+Pixels on a 1680x1050 zero-padded canvas, not degrees of visual angle (as no viewing distance was given in the source); train+valid splits only (665k out of 822k fixations); only 10 observers; map correlation and DTW are coarse measures (MultiMatch / ScanMatch / NSS / AUC are natural next steps).
